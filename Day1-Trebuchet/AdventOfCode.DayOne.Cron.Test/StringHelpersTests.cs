@@ -24,13 +24,13 @@ public class StringHelpersTests
         {
             var testData = new TheoryData<string, string>();
 
-            testData.Add("two1nine", "219");
-            testData.Add("eightwothree", "8wo3");
-            testData.Add("abcone2threexyz", "abc123xyz");
-            testData.Add("xtwone3four", "x2ne34");
-            testData.Add("4nineeightseven2", "49872");
-            testData.Add("zoneight234", "z1ight234");
-            testData.Add("7pqrstsixteen", "7pqrst16");
+            testData.Add("two1nine", "29");
+            testData.Add("eightwothree", "83");
+            testData.Add("abcone2threexyz", "13");
+            testData.Add("xtwone3four", "24");
+            testData.Add("4nineeightseven2", "42");
+            testData.Add("zoneight234", "14");
+            testData.Add("7pqrstsixteen", "76");
 
             return testData;
         }
