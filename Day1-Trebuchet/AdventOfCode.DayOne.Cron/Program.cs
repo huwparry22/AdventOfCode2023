@@ -18,4 +18,4 @@ var input = File.ReadAllLines("input.txt");
 //     "7pqrstsixteen"
 // };
 
-partOne.Run(input);
+Console.WriteLine(partOne.Run(input));

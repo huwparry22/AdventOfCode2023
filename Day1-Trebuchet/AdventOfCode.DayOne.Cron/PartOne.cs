@@ -2,7 +2,7 @@
 
 public class PartOne
 {
-    public void Run(IEnumerable<string> input)
+    public int Run(IEnumerable<string> input)
     {
         List<int> values = new List<int>();
 
@@ -10,8 +10,8 @@ public class PartOne
         {
             values.Add(GetFirstAndLastFromWord(item));
         }
-
-        Console.WriteLine(values.Sum());
+        
+        return values.Sum();
     }
 
     public int GetFirstAndLastFromWord(string word)
