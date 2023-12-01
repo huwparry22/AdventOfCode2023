@@ -2,7 +2,7 @@
 
 namespace AdventOfCode.DayOne.Cron;
 
-public class StringHelpers
+public class PartTwo
 {
     Dictionary<string, string> numberWords = new Dictionary<string, string>
     {
@@ -18,12 +18,24 @@ public class StringHelpers
         {"nine", "9"}
     };
 
-    public string GetReducedNumber(string item)
+    public int Run(IEnumerable<string> input)
+    {
+        List<int> values = new List<int>();
+
+        foreach(var item in input)
+        {
+            values.Add(GetFirstAndLastFromWord(item));
+        }
+        
+        return values.Sum();
+    }
+
+    public int GetFirstAndLastFromWord(string word)
     {
         var pattern = "(one)|(two)|(three)|(four)|(five)|(six)|(seven)|(eight)|(nine)|[0-9]";
 
-        var first = Regex.Match(item, pattern).Value;
-        var last = Regex.Match(item, pattern, RegexOptions.RightToLeft).Value;
+        var first = Regex.Match(word, pattern).Value;
+        var last = Regex.Match(word, pattern, RegexOptions.RightToLeft).Value;
 
         if (first.Length > 1)
             first = numberWords[first];
@@ -31,6 +43,6 @@ public class StringHelpers
         if (last.Length > 1)
             last = numberWords[last];
 
-        return first + last;
+        return Convert.ToInt32(first + last);
     }
 }

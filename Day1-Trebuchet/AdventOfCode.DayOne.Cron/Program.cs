@@ -3,19 +3,9 @@ using AdventOfCode.DayOne.Cron;
 
 
 var partOne = new PartOne();
+var partTwo = new PartTwo();
 
 var input = File.ReadAllLines("input.txt");
 
-
-// var input = new List<string>
-// {
-//     "two1nine",
-//     "eightwothree",
-//     "abcone2threexyz",
-//     "xtwone3four",
-//     "4nineeightseven2",
-//     "zoneight234",
-//     "7pqrstsixteen"
-// };
-
 Console.WriteLine(partOne.Run(input));
+Console.WriteLine(partTwo.Run(input));
