@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.DayOne.Cron", "AdventOfCode.DayOne.Cron\AdventOfCode.DayOne.Cron.csproj", "{14773068-8AAB-43BF-9BC8-463C7FA4ACDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.DayOne.Cron.Test", "AdventOfCode.DayOne.Cron.Test\AdventOfCode.DayOne.Cron.Test.csproj", "{DDD68F9F-0039-42BD-807F-B5BB2E29A148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{14773068-8AAB-43BF-9BC8-463C7FA4ACDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14773068-8AAB-43BF-9BC8-463C7FA4ACDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14773068-8AAB-43BF-9BC8-463C7FA4ACDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD68F9F-0039-42BD-807F-B5BB2E29A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD68F9F-0039-42BD-807F-B5BB2E29A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD68F9F-0039-42BD-807F-B5BB2E29A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD68F9F-0039-42BD-807F-B5BB2E29A148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

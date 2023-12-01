@@ -41,31 +41,31 @@ public class StringHelpers
     {
         var rtn = item;
 
-        // foreach(var entry in numberWords.Reverse())
-        // {
-        //     rtn = rtn.Replace(entry.Key, entry.Value.ToString());
-        // }
-
-        var temp = string.Empty;
-
-        foreach (var c in item)
+        foreach(var entry in numberWords.Reverse())
         {
-            if (char.IsDigit(c))
-            {
-                temp = string.Empty;
-                rtn += c;
-            }
-            else
-            {
-                temp += c;
-                
-                if (numberWords.ContainsKey(temp))
-                {
-                    rtn.Replace(temp, numberWords[temp].ToString());
-                    temp = string.Empty;
-                }
-            }
+            rtn = rtn.Replace(entry.Key, entry.Value.ToString());
         }
+
+        // var temp = string.Empty;
+
+        // foreach (var c in item)
+        // {
+        //     if (char.IsDigit(c))
+        //     {
+        //         temp = string.Empty;
+        //         rtn += c;
+        //     }
+        //     else
+        //     {
+        //         temp += c;
+
+        //         if (numberWords.ContainsKey(temp))
+        //         {
+        //             rtn.Replace(temp, numberWords[temp].ToString());
+        //             temp = string.Empty;
+        //         }
+        //     }
+        // }
 
         return rtn;
     }
