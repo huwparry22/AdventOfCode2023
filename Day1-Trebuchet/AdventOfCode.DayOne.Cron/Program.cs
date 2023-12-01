@@ -1,11 +1,30 @@
-﻿var input = File.ReadAllLines("input.txt");
+﻿using System.Runtime.CompilerServices;
+using AdventOfCode.DayOne.Cron;
+
+//var input = File.ReadAllLines("input.txt");
+
+var stringHelpers = new StringHelpers();
+
+
+var input = new List<string>
+{
+    "two1nine",
+    "eightwothree",
+    "abcone2threexyz",
+    "xtwone3four",
+    "4nineeightseven2",
+    "zoneight234",
+    "7pqrstsixteen"
+};
 
 List<int> values = new List<int>();
 
 foreach(var item in input)
 {
-    var first = item.First(c => char.IsDigit(c));
-    var last = item.Last(c => char.IsDigit(c));
+    var reduced = stringHelpers.GetReducedNumber(item);
+
+    var first = reduced.First(c => char.IsDigit(c));
+    var last = reduced.Last(c => char.IsDigit(c));
 
     char[] arrNumber = {first, last};
 
@@ -13,4 +32,3 @@ foreach(var item in input)
 }
 
 Console.WriteLine(values.Sum());
-
