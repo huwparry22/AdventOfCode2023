@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.DayTwo.Cron", "AdventOfCode.DayTwo.Cron\AdventOfCode.DayTwo.Cron.csproj", "{50CB25C7-4715-49A8-894C-6EDD3E0B98BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50CB25C7-4715-49A8-894C-6EDD3E0B98BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CB25C7-4715-49A8-894C-6EDD3E0B98BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CB25C7-4715-49A8-894C-6EDD3E0B98BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CB25C7-4715-49A8-894C-6EDD3E0B98BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
