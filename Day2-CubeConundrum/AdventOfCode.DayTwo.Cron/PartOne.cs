@@ -20,7 +20,12 @@ public class PartOne
         foreach(var cubeSet in cubeSets)
         {
             var cubes = cubeSet.Split(",");
-            
+            foreach(var reveal in cubes)
+            {
+                var colourAmount = reveal.Split(" ");
+                int amount = Convert.ToInt32(colourAmount[0].Trim());
+                string colour = colourAmount[1].Trim();
+            }
         }
 
 
