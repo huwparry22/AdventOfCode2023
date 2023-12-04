@@ -4,5 +4,5 @@ public class Game
 {
     public int GameId { get; set; }
 
-    public Dictionary<string, int> ColourAndAmount { get; set; }
+    public List<Tuple<string, int>> ColourAndAmount { get; set; }
 }
