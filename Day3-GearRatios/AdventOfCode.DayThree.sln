@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.DayThree.Cron", "AdventOfCode.DayThree.Cron\AdventOfCode.DayThree.Cron.csproj", "{5530AC5D-9ADB-443D-8B41-7AF5DCD93351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.DayThree.Cron.Tests", "AdventOfCode.DayThree.Cron.Tests\AdventOfCode.DayThree.Cron.Tests.csproj", "{98EC76BC-6F49-495C-A716-D2AAEC914789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5530AC5D-9ADB-443D-8B41-7AF5DCD93351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5530AC5D-9ADB-443D-8B41-7AF5DCD93351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5530AC5D-9ADB-443D-8B41-7AF5DCD93351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5530AC5D-9ADB-443D-8B41-7AF5DCD93351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EC76BC-6F49-495C-A716-D2AAEC914789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EC76BC-6F49-495C-A716-D2AAEC914789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EC76BC-6F49-495C-A716-D2AAEC914789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EC76BC-6F49-495C-A716-D2AAEC914789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
